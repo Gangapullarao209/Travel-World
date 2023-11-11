@@ -1,0 +1,91 @@
+/* Carousel - Clients Love  */
+
+ .carousel-indicators{
+    background: none;
+  }
+  .clientsLove{
+    width: 100%;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 110px;
+   }
+  #CL{
+    background-color: orange;
+    height: 60px;
+    width: 150px;
+    border-radius: 38px;
+   
+    padding-left: 13px;
+    padding-top: 11px;
+     
+    
+  }
+  .clientsLove h4{
+     
+    font-family: 'Tangerine', serif;
+     
+  }
+  .clientsLove h5{
+    font-size: 25px;
+  }
+  .carousel{
+    margin-top: 50px;
+  }
+  .carousel li{
+    color: black;
+  }
+  
+  .carousel-indicators {
+    margin: 0px;
+    height: 0px;
+  }
+  
+  .carousel-indicators ol {
+    width: 100%;
+  }
+  
+  .carousel-indicators li {
+    height: 5px !important;
+    border-radius:50% !important;
+    width:5px;
+    background-color: rgba(165, 164, 164, 0.724);
+    margin: 0px 10px !important;
+  }
+  
+  
+  .carousel-indicators .active{
+    background-color: rgb(106, 106, 106);
+  }
+  
+  .carousel-inner{
+    height:350px;
+ 
+  }
+  
+  .uResponse{
+    display: flex;
+    font-size: 15px;
+    gap:50px;
+  }
+  #user1, #user2, #user3{
+    width: 28%;
+  }
+  #uinfo{
+    display: flex;
+    gap: 30px;
+  }
+  #uinfo h5{
+    font-size: 20px;
+    margin: none;
+  }
+  #user1 img, #user2 img, #user3 img{
+    width:80px;
+    height:65px;
+    border-radius: 10px;
+  }
+
+  #CLnav{
+    margin-right: 90%;
+  }
+
+ 
