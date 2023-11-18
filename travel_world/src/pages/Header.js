@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+ 
+ 
 
 function Navbar(){
+  
     return(
         <div  >
              
@@ -14,8 +17,8 @@ function Navbar(){
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown" style={{marginLeft:'45%', gap:'2%'}}>
       <ul className="navbar-nav">
-        <li className="nav-item">
-        <Link className="nav-link" to="/">Home</Link>
+        <li className="nav-item"  >
+        <Link className="nav-link" to="/" >Home</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/About">About</Link>
@@ -24,12 +27,18 @@ function Navbar(){
         <Link className="nav-link" to="/Tours">Tours</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="/Login">Login</Link>
+        <Link className="nav-link" to="/Login"   >Login</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/Register">
             <button style={{border:'none', 
                             borderRadius:'10px ',
+                            backgroundColor:"orange",
+                            paddingLeft:"10px",
+                            paddingRight:"10px",
+                            color:"white",
+
+                            fontWeight:"600"
                             }}>Register</button>
         </Link>
         </li>
@@ -43,4 +52,4 @@ function Navbar(){
     )
 }
 
-export default Navbar;   
+export default Navbar;    

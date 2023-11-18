@@ -16,8 +16,7 @@ function FeatureTours(){
 
 
 <div className="container mt-5">
-          <button style={{borderRadius:"30px"}} className="btn btn-warning mb-3 mt-4"> <span className="dance-font h5">Explore</span></button>
-            <h2 className="mt-3 mb-5 ">Our Featured tours</h2>
+           
           </div>
 
           <div className="container">
@@ -33,10 +32,10 @@ function FeatureTours(){
                             <div className="card-body">
                                 <div className="d-flex justify-content-between">
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Bangkok</p>
-                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
+                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>4.5</p>
 
                                 </div>
-                                <Link to="/BookNow"  style={{textDecoration:'none'}}>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>Snowy Mountains, Thailand</h5>
                                 </Link>
                                 <div className="d-flex justify-content-between">
@@ -57,9 +56,12 @@ function FeatureTours(){
                             <div className="card-body">
                                 <div className="d-flex justify-content-between">
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Tokyo</p>
-                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p> 
+                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>4.5</p> 
                                 </div>
-                                <h5>Cherry Blossoms <br /> Spring</h5>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
+                               < h5>Cherry Blossoms <br /> Spring</h5>
+                                </Link>
+                                
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
@@ -80,11 +82,15 @@ function FeatureTours(){
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Bali</p>
                                     <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
                                 </div>
-                                <h5 >Bali,Indonasia</h5> <br />
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
+                                <h5 >Bali,Indonasia</h5>
+                                 </Link>
+                                
+                                <br />
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>4.5</button>
                                     </Link>                        
                                     </div>
                             </div>
@@ -101,11 +107,13 @@ function FeatureTours(){
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Paris</p>
                                     <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
                                 </div>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>Holmen Lofoten, <br /> France</h5>
+                                </Link>
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>3.5</button>
                                     </Link>
                                     </div>
                             </div>
@@ -126,9 +134,11 @@ function FeatureTours(){
                             <div className="card-body">
                                 <div className="d-flex justify-content-between">
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Phuket</p>
-                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
+                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>4.7</p>
                                 </div>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>Beautiful Sunrise,Thailand</h5>
+                                </Link>
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
@@ -147,9 +157,11 @@ function FeatureTours(){
                             <div className="card-body">
                                 <div className="d-flex justify-content-between">
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Landon</p>
-                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
+                                    <p><span><FaRegStar style={{color:'orange' }} /> </span>4.4</p>
                                 </div>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>WestMinister,<br />Bridge</h5>
+                                </Link>
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
@@ -170,11 +182,13 @@ function FeatureTours(){
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> Bali</p>
                                     <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
                                 </div>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>Nusa Pendia Bali,<br />Indonasia</h5>
+                                </Link>
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>4.5</button>
                                     </Link>                            
                                      </div>
                             </div>
@@ -191,7 +205,9 @@ function FeatureTours(){
                                     <p><span><CiLocationOn style={{color:'orange' }} /></span> London</p>
                                     <p><span><FaRegStar style={{color:'orange' }} /> </span>Not rated</p>
                                 </div>
+                                <Link to="/BookNow"  style={{textDecoration: 'none', color: 'inherit',}}>
                                 <h5>Heelo world</h5><br />
+                                </Link>
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">

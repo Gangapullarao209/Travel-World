@@ -23,27 +23,22 @@ function About(){
             </div>
             <div className="LForm" style={{backgroundColor:"olive"}}> 
             <form className="form">
-               <h5 id="Flogin">Profile</h5>
-               <br/>
+               <h5 id="Flogin" style={{marginLeft:"55px",marginTop:"10px"}}>Profile</h5>
+                
            <div class="row mb-3">
-          <div class="col-sm-10">
-          <a class="nav-link" href="https://www.linkedin.com/in/ganga-pullarao-18b939214/">
-          <button type="button" id="Lbtn" class="btn btn-primary">LinkedIn</button> 
-               </a>
-         </div>
-          </div>
-          <div class="row mb-3">
-          <div class="col-sm-10">
-          <a class="nav-link" href="https://github.com/Gangapullarao209?tab=repositories">
-          <button type="button" id="Lbtn" class="btn btn-primary">GitHub</button> 
-               </a>    
-                </div>
-          </div>
-
-  
+           
+           <a class="nav-link" href="https://www.linkedin.com/in/ganga-pullarao-18b939214/">
+          <button type="button" id="Ldin" class="btn btn-primary">LinkedIn</button> 
+               </a>  
+               <br />
+               <a class="nav-link" href="https://github.com/Gangapullarao209?tab=repositories">
+          <button type="button" id="github" class="btn btn-primary">GitHub</button> 
+               </a>  
+               <br />
           <a class="nav-link" href="https://www.naukri.com/mnjuser/profile?id=&altresid">
           <button type="button" id="Lbtn1" class="btn btn-primary">Naukari</button> 
-               </a>           
+               </a>  
+               </div>         
                 </form>
   
             </div>

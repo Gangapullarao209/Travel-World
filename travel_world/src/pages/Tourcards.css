@@ -1,0 +1,17 @@
+.cardcontainer{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+ /* Remove default underline and color from links */
+ 
+  /* Optional: Add styles for hover, active, and visited states */
+ 
+
+  .titlehover:hover {
+    color: orange; /* Change the color to orange on hover */
+  }
+  
+  
+  

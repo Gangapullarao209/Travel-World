@@ -1,0 +1,32 @@
+.search-bar{
+
+    position: relative;
+    margin-top: -80%;
+    display: flex;
+    gap:1%;
+    margin-left: 5%;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    width: 60%;
+    border-radius: 30px;
+    height: 80px;
+    
+    
+     
+}
+
+.mb-3{
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 9px;
+    height: 10px;
+        
+    
+}
+
+ 
+
+
+.card-container{
+    position: absolute;
+    margin-top: 50%;
+}

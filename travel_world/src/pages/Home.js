@@ -5,12 +5,16 @@ import Navbar from "./Header";
 import FeatureTours from "./FeaturedTours";
 import SubscribeNow from "./SubscribeNow";
 import Footer from "./Footer";
-
+import TourList from "./TourList"
+ 
+import { Container,Row, Button, Col, section } from "reactstrap";
+ 
 // fontawsome icons
 import { FaMagnifyingGlass,FaRegStar } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { RiMapPinTimeLine,RiGroupLine } from "react-icons/ri";
 import { CiLocationOn } from "react-icons/ci";
+
  
 
 
@@ -53,14 +57,19 @@ import { CiLocationOn } from "react-icons/ci";
                 </div>
             </div>
             {/* Location Filter */}
-            <LocationFilter />
+            <div style={{ border:"none", height:"100px", width:"100%"}}>
+         
+            </div>
+            
+            {/* <LocationFilter /> */}
+            
            
 
 
 
             {/* what we serve */}
 
-            <div className="container mt-5">
+            <div className="container mt-5" >
                 <div className="grid">
                     <div className="row d-flex justify-content-center gap-4">
                         <div className="col-6 col-sm-6 col-md-2 col-lg-2">
@@ -102,11 +111,25 @@ import { CiLocationOn } from "react-icons/ci";
             </div>
 
             {/* Featured Tours */}
-            <FeatureTours />
+            {/* <FeatureTours /> */}
+            <div style={{border:" none", height:"500px", width:"100%"}}>
+
+            </div>
+
+            <TourList />
+
+
+            { /* featured tour section start */}
+            
+            
+
+
+
+
            
           {/* experience */}
 
-          <div className="container experience">
+          <div className="container experience" style={{marginTop:"700px"}}>
             <div className="grid">
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">

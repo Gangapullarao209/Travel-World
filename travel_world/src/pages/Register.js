@@ -21,21 +21,24 @@ function Register(){
              <form className="form">
                 <h5 id="Flogin" style={{marginLeft:"55px"}}>Register</h5>
                 <br/>
-                <div class="row mb-3">
-           <div class="col-sm-10">
-           <input id="lemail" type="email" class="form-control"  placeholder="User Name"  />
-           </div>
-           </div>    
             <div class="row mb-3">
            <div class="col-sm-10">
-           <input id="lemail" type="text" class="form-control"  placeholder="Email"  />
+           <input id="UN" type="text" class="form-control"  placeholder="User Name"  />
+           </div>
+           </div>  
+           <br/>  
+            <div class="row mb-3">
+           <div class="col-sm-10">
+           <input id="EM" type="email" class="form-control"  placeholder="Email"  />
            </div>
            </div>
+           <br/>
            <div class="row mb-3">
            <div class="col-sm-10">
-           <input type="password" class="form-control" placeholder="Password" id="inputPassword3" />
+           <input type="password" class="form-control" placeholder="Password" id="PWD" />
            </div>
            </div>
+           <br/>
  
    
           <button type="submit" id="Lbtn" class="btn btn-primary">Create Account</button>
