@@ -90,7 +90,7 @@ function FeatureTours(){
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>4.5</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
                                     </Link>                        
                                     </div>
                             </div>
@@ -113,7 +113,7 @@ function FeatureTours(){
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>3.5</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
                                     </Link>
                                     </div>
                             </div>
@@ -188,7 +188,7 @@ function FeatureTours(){
                                 <div className="d-flex justify-content-between">
                                     <p><span><b className="text-warning">$ 990 </b></span>/per<br /> person</p>
                                     <Link to="/BookNow">
-                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>4.5</button>
+                                    <button className="btn btn-warning text-light" style={{height:'40px'}}>Book Now</button>
                                     </Link>                            
                                      </div>
                             </div>
