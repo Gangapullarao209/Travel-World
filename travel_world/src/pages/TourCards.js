@@ -1,13 +1,16 @@
 
 import React from 'react';
-import './Tourcards.css'
+import './Tourcards.css';
 import { CiLocationOn } from "react-icons/ci";
-import { FaMagnifyingGlass,FaRegStar } from "react-icons/fa6";
+// import { FaMagnifyingGlass,FaRegStar } from "react-icons/fa6";
+import { FaRegStar } from "react-icons/fa6";
+
 import { Link } from "react-router-dom"; 
 
  
 const TourCards = ({ tour }) => {
-  const { title, city, distance, address, price, maxGroupSize, desc, reviews, avgRating, photo   } = tour;
+  // const { title, city, distance, address, price, maxGroupSize, desc, reviews, avgRating, photo   } = tour;
+  const { title, city,avgRating, photo   } = tour;
  return (
   
      <div className="cardcontainer"  style={{width:"100%"   , maxHeight:"800px" , borderRadius:"10px"   }} >

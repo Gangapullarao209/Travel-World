@@ -1,5 +1,5 @@
 import React from "react";
-import '../../src/Homepage-carousel.css'
+import '../../src/Homepage-carousel.css';
 
 
 

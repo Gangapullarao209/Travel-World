@@ -2,8 +2,8 @@ import React from "react";
 import '../../src/Homepage-carousel.css'
 
 import { FaMagnifyingGlass,FaRegStar } from "react-icons/fa6";
-import { IoLocationOutline } from "react-icons/io5";
-import { RiMapPinTimeLine,RiGroupLine } from "react-icons/ri";
+ 
+// import { RiMapPinTimeLine,RiGroupLine } from "react-icons/ri";
 import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom"; 
 

@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import { FaMagnifyingGlass,FaRegStar } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { RiMapPinTimeLine,RiGroupLine } from "react-icons/ri";
-import { CiLocationOn } from "react-icons/ci";
+// import { CiLocationOn } from "react-icons/ci";
  
 
 
