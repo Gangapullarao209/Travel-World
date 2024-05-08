@@ -6,10 +6,11 @@ import Tours from './pages/Tours';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import BookNow from './pages/BookNow';
-import Navbar from "./pages/Header";
+// import Navbar from "./pages/Header";
 function App() {
 
-  const [loggedInUser, setLoggedInUser] = useState("");
+  const [  setLoggedInUser] = useState("");
+  // const [loggedInUser, setLoggedInUser] = useState("");
 
   const handleLogin = (loginId) => {
       setLoggedInUser(loginId);
