@@ -28,6 +28,7 @@ function App() {
       <Route exact path='/Login' element = {<Login  onLogin={handleLogin}/>} />
       <Route exact path='/Register' element = {<Register />} />
       <Route exact path='/BookNow' element={<BookNow />} />
+      <Route path="*" element={<Navigate to="/" />} />
       
       
       

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Header";
 import Footer from "./Footer";
-import '../../src/About.css'
+import '/workspaces/Travel-World/src/pages/About.js';
 
 
 function About(){
